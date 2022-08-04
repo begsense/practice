@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* .wholebody{
+    width: 80%;
+    margin: auto
+} */
+
+.container{
+    width: 2150px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.TopBar{
+    background-color: #362F2D;
+    padding: 15px 0;
+}
+
+.flex{
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    padding-left: 17px
+}
+
+.TopBar i{
+    color: #5AB1F4;
+}
+
+.flex > a{
+    color: #A6AFC3;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.flex > p{
+    width: 350px;
+    height: 250px;
+    background-color: #4778C1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.middle h2, .middle p{
+    text-align: center;
+    margin: 28px 0px;
+    font-size: 25px;
+}
+
+svg{
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+
+.container > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 55px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    margin: 30px 0px;
+}
+
+.middle a:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: #5AB1F4;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.background{
+    width: 100%;
+    height: 300px;
+    margin: 30px 0px;
+    background-image: url(https://scsa.ge/wp-content/uploads/2019/08/securityservice1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.seemore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 55px;
+    text-decoration: none;
+    background-color: #5AB1F4;
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.blue-background{
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #5bb5ff 22%, #4267b2 79%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-background a {
+    width: 170px;
+    height: 45px;
+    background-color: #FFFFFF;
+    color:  rgb(66,103,178);
+    font-size: 20px;
+    font-weight:lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-middle > div{
+    width: 220px;
+    height: 390px;
+    border: 1px solid #5ab1f4;;
+    margin: 15px;
+}
+
+.icon-border{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    /* flex-shrink: 0; */
+}
+
+.icons-flex{
+    width: 217px !important;
+    height: 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.container-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icons-flex i{
+    padding-top: 6px; 
+    color: white;
+}
+
+.middle-content{
+    padding: 25px 0;   
+}
+
+.container-middle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-middle2 > div{
+    width: 277px;
+    height: 355px;
+    background-color: #46A9F4;
+    margin: 20px;
+}
+
+.middle2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.middle2-content i{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-middle3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+    text-align: center;
+    padding: 0 40px;
+    gap: 20px;
+}
+
+.middle3-content{
+    width: 346px;
+    height: 517px;
+    background-color: #F7F7F7;
+}
+
+.middle3-content p{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px 0;
+}
+.middle3-content-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #7A7A7A;
+}
+
+.rame{
+    font-size: 50px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.middle3-content a{
+    width: 165px;
+    height: 46px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.middle3-content__popular{
+    position: absolute;
+    background-color: green;
+    color: white;
+    right: -26px;
+    top: 17px;
+    transform:rotate(46deg);
+    font-size: 13px;
+    width: 130px;
+}
+
+.middle3-content-top{
+    position: relative;
+    overflow: hidden;
+}
+
+.donation{
+    background-image: url(https://scsa.ge/wp-content/uploads/2017/07/wallup-192827-e1500032335439.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.donation p{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.donation a{
+    width: 98px;
+    height: 41px;
+    background-color: #4267B2;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.donation a:hover{
+    transform: scale(1.2);
+}
+
+.middle4-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.middle5-content__list{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.middle5-content__list__item {
+    width: 316px;
+    height: 240px;
+    border: 1px solid #6ec1e4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    border-top: 10px solid #6ec1e4;
+}
+
+.middle5-content__list__item__tittle{
+    color: #191919;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+
+.middle5-content__list__item__date{
+    color: #ff2660;
+    font-size: 13px;
+}
+
+.middle5-content__list__item__content{
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #c9c9c9;
+}
+
+.footer{
+    width: 100%;
+    height: 365px;
+    background-color: #362F2D;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #413A39;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+    font-size: 13px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    border: 1px solid #A6AFC3;
+    margin: 8px 0;
+    background-color: white;
+    z-index: 999;
+    width: 250px;
+}
+
+.menu{
+    position: relative;
+}
+
+.menu:hover .submenu{
+    display: flex;
+    flex-direction: column;
+}

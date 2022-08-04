@@ -1,0 +1,12 @@
+.first{
+    width: 1000px;
+    height: 1000px;
+    background-image: url(./images/c72676467ae6def6cf1b97399a5a047e.png);
+    background-size: cover;
+    margin-left: 300px;
+    text-align: justify;
+}
+*{
+    margin: 0;
+    /* display: flexbox; */
+}
