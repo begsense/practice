@@ -107,9 +107,10 @@ a{
 .readmore{
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 12px;
+    font-size: 20px;
 }
 
 .weoffer{
@@ -158,6 +159,7 @@ a{
 .offers:hover{
     background-color: blanchedalmond;
     border-radius: 15px;
+    transition: 2s;
 }
 
 .border{
